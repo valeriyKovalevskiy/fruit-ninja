@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB5DF62B6768BEB0FFDFC01 /* Pods_WolfFruits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7464280F6C687C55D756A934 /* Pods_WolfFruits.framework */; };
+		78351D2723DEC5A400E6CCC4 /* AdSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D2623DEC5A400E6CCC4 /* AdSettingsStorage.swift */; };
+		78351D2923DEC5E100E6CCC4 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D2823DEC5E000E6CCC4 /* RemoteConfigManager.swift */; };
+		78351D2B23DEC60200E6CCC4 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D2A23DEC60200E6CCC4 /* AdManager.swift */; };
+		78351D2D23DEC61300E6CCC4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D2C23DEC61300E6CCC4 /* APIManager.swift */; };
+		78351D2F23DEC64C00E6CCC4 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D2E23DEC64C00E6CCC4 /* Keychain.swift */; };
+		78351D3123DEC6CC00E6CCC4 /* InitConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D3023DEC6CC00E6CCC4 /* InitConstants.swift */; };
+		78351D3323DEC6D700E6CCC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78351D3223DEC6D700E6CCC4 /* Constants.swift */; };
+		7842205023D98A2A007C0DC5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842204F23D98A2A007C0DC5 /* LoadingViewController.swift */; };
+		7842205223D98B6D007C0DC5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842205123D98B6D007C0DC5 /* MenuViewController.swift */; };
+		7842205423D98B7C007C0DC5 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842205323D98B7C007C0DC5 /* GameOverViewController.swift */; };
+		785E73B723E1951000C2211C /* ghostrifter-official-on-my-way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 785E73B623E1951000C2211C /* ghostrifter-official-on-my-way.mp3 */; };
+		78EC7A3823E0D3BD002B9AA1 /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EC7A3723E0D3BD002B9AA1 /* VibrationManager.swift */; };
+		9A09486723E9B776000DB524 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A09486623E9B776000DB524 /* GameKit.framework */; };
+		9A09486A23E9B961000DB524 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A09486923E9B961000DB524 /* GoogleService-Info.plist */; };
+		9A09488123E9B9EA000DB524 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A09487523E9B9EA000DB524 /* GameScene.sks */; };
+		9A09488223E9B9EA000DB524 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487623E9B9EA000DB524 /* GameScene.swift */; };
+		9A09488323E9B9EA000DB524 /* GameLogics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487723E9B9EA000DB524 /* GameLogics.swift */; };
+		9A09488423E9B9EA000DB524 /* TrialLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487923E9B9EA000DB524 /* TrialLine.swift */; };
+		9A09488523E9B9EA000DB524 /* FruitsScoreMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487A23E9B9EA000DB524 /* FruitsScoreMode.swift */; };
+		9A09488623E9B9EA000DB524 /* Hearts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487B23E9B9EA000DB524 /* Hearts.swift */; };
+		9A09488723E9B9EA000DB524 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487C23E9B9EA000DB524 /* Fruits.swift */; };
+		9A09488823E9B9EA000DB524 /* GameStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09487D23E9B9EA000DB524 /* GameStorage.swift */; };
+		9A09488923E9B9EA000DB524 /* ScoreModeGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A09487F23E9B9EA000DB524 /* ScoreModeGameScene.sks */; };
+		9A09488A23E9B9EA000DB524 /* ScoreModeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09488023E9B9EA000DB524 /* ScoreModeGameScene.swift */; };
+		9A09488C23E9BCD2000DB524 /* ScoreModeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09488B23E9BCD2000DB524 /* ScoreModeGameViewController.swift */; };
+		A9C9DD3A239628F30038287D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9DD39239628F30038287D /* AppDelegate.swift */; };
+		A9C9DD42239628F30038287D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9DD41239628F30038287D /* GameViewController.swift */; };
+		A9C9DD45239628F30038287D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD43239628F30038287D /* Main.storyboard */; };
+		A9C9DD47239628F40038287D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD46239628F40038287D /* Assets.xcassets */; };
+		A9C9DD4A239628F40038287D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD48239628F40038287D /* LaunchScreen.storyboard */; };
+		A9C9DD6323962C910038287D /* sliceFuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5223962C910038287D /* sliceFuse.sks */; };
+		A9C9DD6723962C910038287D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5623962C910038287D /* spark.png */; };
+		A9C9DD6823962C910038287D /* missedFruitSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5723962C910038287D /* missedFruitSound.caf */; };
+		A9C9DD6923962C910038287D /* sliceFruitSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5823962C910038287D /* sliceFruitSound.caf */; };
+		A9C9DD6A23962C910038287D /* swoosh_4.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5923962C910038287D /* swoosh_4.caf */; };
+		A9C9DD6B23962C910038287D /* bombExplosionSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5A23962C910038287D /* bombExplosionSound.caf */; };
+		A9C9DD6D23962C910038287D /* sliceHitEnemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5C23962C910038287D /* sliceHitEnemy.sks */; };
+		A9C9DD6E23962C910038287D /* bombSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5D23962C910038287D /* bombSound.caf */; };
+		A9C9DD6F23962C910038287D /* sliceHitBomb.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD5E23962C910038287D /* sliceHitBomb.sks */; };
+		A9C9DD7123962C910038287D /* swoosh_3.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD6023962C910038287D /* swoosh_3.caf */; };
+		A9C9DD7223962C910038287D /* swoosh_2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD6123962C910038287D /* swoosh_2.caf */; };
+		A9C9DD7323962C910038287D /* swoosh_1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A9C9DD6223962C910038287D /* swoosh_1.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17DBD2C571093412F1CBE869 /* Pods-WolfFruits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfFruits.debug.xcconfig"; path = "Target Support Files/Pods-WolfFruits/Pods-WolfFruits.debug.xcconfig"; sourceTree = "<group>"; };
+		7464280F6C687C55D756A934 /* Pods_WolfFruits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfFruits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78351D2623DEC5A400E6CCC4 /* AdSettingsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSettingsStorage.swift; sourceTree = "<group>"; };
+		78351D2823DEC5E000E6CCC4 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		78351D2A23DEC60200E6CCC4 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		78351D2C23DEC61300E6CCC4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		78351D2E23DEC64C00E6CCC4 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		78351D3023DEC6CC00E6CCC4 /* InitConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitConstants.swift; sourceTree = "<group>"; };
+		78351D3223DEC6D700E6CCC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7842204F23D98A2A007C0DC5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = ../LoadingViewController.swift; sourceTree = "<group>"; };
+		7842205123D98B6D007C0DC5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7842205323D98B7C007C0DC5 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		785E73B623E1951000C2211C /* ghostrifter-official-on-my-way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghostrifter-official-on-my-way.mp3"; sourceTree = "<group>"; };
+		78EC7A3723E0D3BD002B9AA1 /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		9A09486623E9B776000DB524 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		9A09486823E9B783000DB524 /* Wolf Fruits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wolf Fruits.entitlements"; sourceTree = "<group>"; };
+		9A09486923E9B961000DB524 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A09487523E9B9EA000DB524 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9A09487623E9B9EA000DB524 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9A09487723E9B9EA000DB524 /* GameLogics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogics.swift; sourceTree = "<group>"; };
+		9A09487923E9B9EA000DB524 /* TrialLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrialLine.swift; sourceTree = "<group>"; };
+		9A09487A23E9B9EA000DB524 /* FruitsScoreMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsScoreMode.swift; sourceTree = "<group>"; };
+		9A09487B23E9B9EA000DB524 /* Hearts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hearts.swift; sourceTree = "<group>"; };
+		9A09487C23E9B9EA000DB524 /* Fruits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		9A09487D23E9B9EA000DB524 /* GameStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStorage.swift; sourceTree = "<group>"; };
+		9A09487F23E9B9EA000DB524 /* ScoreModeGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ScoreModeGameScene.sks; sourceTree = "<group>"; };
+		9A09488023E9B9EA000DB524 /* ScoreModeGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreModeGameScene.swift; sourceTree = "<group>"; };
+		9A09488B23E9BCD2000DB524 /* ScoreModeGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreModeGameViewController.swift; sourceTree = "<group>"; };
+		A9C9DD36239628F30038287D /* Wolf Fruits HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wolf Fruits HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C9DD39239628F30038287D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9C9DD41239628F30038287D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9C9DD44239628F30038287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9C9DD46239628F40038287D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9C9DD49239628F40038287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9C9DD4B239628F40038287D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C9DD5223962C910038287D /* sliceFuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceFuse.sks; sourceTree = "<group>"; };
+		A9C9DD5623962C910038287D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A9C9DD5723962C910038287D /* missedFruitSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = missedFruitSound.caf; sourceTree = "<group>"; };
+		A9C9DD5823962C910038287D /* sliceFruitSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sliceFruitSound.caf; sourceTree = "<group>"; };
+		A9C9DD5923962C910038287D /* swoosh_4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh_4.caf; sourceTree = "<group>"; };
+		A9C9DD5A23962C910038287D /* bombExplosionSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bombExplosionSound.caf; sourceTree = "<group>"; };
+		A9C9DD5C23962C910038287D /* sliceHitEnemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitEnemy.sks; sourceTree = "<group>"; };
+		A9C9DD5D23962C910038287D /* bombSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bombSound.caf; sourceTree = "<group>"; };
+		A9C9DD5E23962C910038287D /* sliceHitBomb.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitBomb.sks; sourceTree = "<group>"; };
+		A9C9DD6023962C910038287D /* swoosh_3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh_3.caf; sourceTree = "<group>"; };
+		A9C9DD6123962C910038287D /* swoosh_2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh_2.caf; sourceTree = "<group>"; };
+		A9C9DD6223962C910038287D /* swoosh_1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh_1.caf; sourceTree = "<group>"; };
+		D76F2223D81E06D2AC11D4E8 /* Pods-WolfFruits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WolfFruits.release.xcconfig"; path = "Target Support Files/Pods-WolfFruits/Pods-WolfFruits.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C9DD33239628F30038287D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB5DF62B6768BEB0FFDFC01 /* Pods_WolfFruits.framework in Frameworks */,
+				9A09486723E9B776000DB524 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78351D2523DEC58F00E6CCC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				78351D2623DEC5A400E6CCC4 /* AdSettingsStorage.swift */,
+				78351D2823DEC5E000E6CCC4 /* RemoteConfigManager.swift */,
+				78351D2A23DEC60200E6CCC4 /* AdManager.swift */,
+				78351D2C23DEC61300E6CCC4 /* APIManager.swift */,
+				78351D2E23DEC64C00E6CCC4 /* Keychain.swift */,
+				78351D3023DEC6CC00E6CCC4 /* InitConstants.swift */,
+				78351D3223DEC6D700E6CCC4 /* Constants.swift */,
+				78EC7A3723E0D3BD002B9AA1 /* VibrationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7842205523D98EEB007C0DC5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A09488B23E9BCD2000DB524 /* ScoreModeGameViewController.swift */,
+				7842204F23D98A2A007C0DC5 /* LoadingViewController.swift */,
+				7842205123D98B6D007C0DC5 /* MenuViewController.swift */,
+				A9C9DD41239628F30038287D /* GameViewController.swift */,
+				7842205323D98B7C007C0DC5 /* GameOverViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9107F813AC85E780FA44DD23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17DBD2C571093412F1CBE869 /* Pods-WolfFruits.debug.xcconfig */,
+				D76F2223D81E06D2AC11D4E8 /* Pods-WolfFruits.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A09487323E9B9EA000DB524 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9A09487423E9B9EA000DB524 /* SurvivalMode */,
+				9A09487723E9B9EA000DB524 /* GameLogics.swift */,
+				9A09487823E9B9EA000DB524 /* GameComponents */,
+				9A09487D23E9B9EA000DB524 /* GameStorage.swift */,
+				9A09487E23E9B9EA000DB524 /* ScoreMode */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9A09487423E9B9EA000DB524 /* SurvivalMode */ = {
+			isa = PBXGroup;
+			children = (
+				9A09487523E9B9EA000DB524 /* GameScene.sks */,
+				9A09487623E9B9EA000DB524 /* GameScene.swift */,
+			);
+			path = SurvivalMode;
+			sourceTree = "<group>";
+		};
+		9A09487823E9B9EA000DB524 /* GameComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9A09487923E9B9EA000DB524 /* TrialLine.swift */,
+				9A09487A23E9B9EA000DB524 /* FruitsScoreMode.swift */,
+				9A09487B23E9B9EA000DB524 /* Hearts.swift */,
+				9A09487C23E9B9EA000DB524 /* Fruits.swift */,
+			);
+			path = GameComponents;
+			sourceTree = "<group>";
+		};
+		9A09487E23E9B9EA000DB524 /* ScoreMode */ = {
+			isa = PBXGroup;
+			children = (
+				9A09487F23E9B9EA000DB524 /* ScoreModeGameScene.sks */,
+				9A09488023E9B9EA000DB524 /* ScoreModeGameScene.swift */,
+			);
+			path = ScoreMode;
+			sourceTree = "<group>";
+		};
+		A9C9DD2D239628F30038287D = {
+			isa = PBXGroup;
+			children = (
+				A9C9DD38239628F30038287D /* WolfFruits */,
+				A9C9DD37239628F30038287D /* Products */,
+				9107F813AC85E780FA44DD23 /* Pods */,
+				DA7CD6661762A74BB4969E86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C9DD37239628F30038287D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C9DD36239628F30038287D /* Wolf Fruits HD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C9DD38239628F30038287D /* WolfFruits */ = {
+			isa = PBXGroup;
+			children = (
+				9A09486823E9B783000DB524 /* Wolf Fruits.entitlements */,
+				78351D2523DEC58F00E6CCC4 /* Utils */,
+				7842205523D98EEB007C0DC5 /* ViewControllers */,
+				9A09487323E9B9EA000DB524 /* Game */,
+				A9C9DD5123962C910038287D /* Content */,
+				A9C9DD39239628F30038287D /* AppDelegate.swift */,
+				A9C9DD43239628F30038287D /* Main.storyboard */,
+				A9C9DD46239628F40038287D /* Assets.xcassets */,
+				A9C9DD48239628F40038287D /* LaunchScreen.storyboard */,
+				A9C9DD4B239628F40038287D /* Info.plist */,
+				9A09486923E9B961000DB524 /* GoogleService-Info.plist */,
+			);
+			path = WolfFruits;
+			sourceTree = "<group>";
+		};
+		A9C9DD5123962C910038287D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				785E73B623E1951000C2211C /* ghostrifter-official-on-my-way.mp3 */,
+				A9C9DD5C23962C910038287D /* sliceHitEnemy.sks */,
+				A9C9DD5E23962C910038287D /* sliceHitBomb.sks */,
+				A9C9DD5223962C910038287D /* sliceFuse.sks */,
+				A9C9DD5623962C910038287D /* spark.png */,
+				A9C9DD5723962C910038287D /* missedFruitSound.caf */,
+				A9C9DD5823962C910038287D /* sliceFruitSound.caf */,
+				A9C9DD5A23962C910038287D /* bombExplosionSound.caf */,
+				A9C9DD5D23962C910038287D /* bombSound.caf */,
+				A9C9DD5923962C910038287D /* swoosh_4.caf */,
+				A9C9DD6023962C910038287D /* swoosh_3.caf */,
+				A9C9DD6123962C910038287D /* swoosh_2.caf */,
+				A9C9DD6223962C910038287D /* swoosh_1.caf */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		DA7CD6661762A74BB4969E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A09486623E9B776000DB524 /* GameKit.framework */,
+				7464280F6C687C55D756A934 /* Pods_WolfFruits.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C9DD35239628F30038287D /* WolfFruits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C9DD4E239628F40038287D /* Build configuration list for PBXNativeTarget "WolfFruits" */;
+			buildPhases = (
+				1BC7B2BBA03C2F280841FFA4 /* [CP] Check Pods Manifest.lock */,
+				A9C9DD32239628F30038287D /* Sources */,
+				A9C9DD33239628F30038287D /* Frameworks */,
+				A9C9DD34239628F30038287D /* Resources */,
+				CD2CD8BC46AB3CF29F991186 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WolfFruits;
+			productName = SwiftyNinja;
+			productReference = A9C9DD36239628F30038287D /* Wolf Fruits HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C9DD2E239628F30038287D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Juan Francisco Dorado Torres";
+				TargetAttributes = {
+					A9C9DD35239628F30038287D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A9C9DD31239628F30038287D /* Build configuration list for PBXProject "WolfFruits" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C9DD2D239628F30038287D;
+			productRefGroup = A9C9DD37239628F30038287D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C9DD35239628F30038287D /* WolfFruits */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C9DD34239628F30038287D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785E73B723E1951000C2211C /* ghostrifter-official-on-my-way.mp3 in Resources */,
+				A9C9DD7223962C910038287D /* swoosh_2.caf in Resources */,
+				9A09488923E9B9EA000DB524 /* ScoreModeGameScene.sks in Resources */,
+				A9C9DD45239628F30038287D /* Main.storyboard in Resources */,
+				A9C9DD6A23962C910038287D /* swoosh_4.caf in Resources */,
+				A9C9DD7123962C910038287D /* swoosh_3.caf in Resources */,
+				A9C9DD6723962C910038287D /* spark.png in Resources */,
+				A9C9DD6B23962C910038287D /* bombExplosionSound.caf in Resources */,
+				A9C9DD6323962C910038287D /* sliceFuse.sks in Resources */,
+				A9C9DD47239628F40038287D /* Assets.xcassets in Resources */,
+				A9C9DD7323962C910038287D /* swoosh_1.caf in Resources */,
+				9A09486A23E9B961000DB524 /* GoogleService-Info.plist in Resources */,
+				A9C9DD6923962C910038287D /* sliceFruitSound.caf in Resources */,
+				A9C9DD6E23962C910038287D /* bombSound.caf in Resources */,
+				A9C9DD6D23962C910038287D /* sliceHitEnemy.sks in Resources */,
+				A9C9DD6823962C910038287D /* missedFruitSound.caf in Resources */,
+				A9C9DD4A239628F40038287D /* LaunchScreen.storyboard in Resources */,
+				9A09488123E9B9EA000DB524 /* GameScene.sks in Resources */,
+				A9C9DD6F23962C910038287D /* sliceHitBomb.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC7B2BBA03C2F280841FFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WolfFruits-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2CD8BC46AB3CF29F991186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WolfFruits/Pods-WolfFruits-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WolfFruits/Pods-WolfFruits-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WolfFruits/Pods-WolfFruits-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C9DD32239628F30038287D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7842205223D98B6D007C0DC5 /* MenuViewController.swift in Sources */,
+				7842205423D98B7C007C0DC5 /* GameOverViewController.swift in Sources */,
+				78351D2D23DEC61300E6CCC4 /* APIManager.swift in Sources */,
+				78351D2F23DEC64C00E6CCC4 /* Keychain.swift in Sources */,
+				78EC7A3823E0D3BD002B9AA1 /* VibrationManager.swift in Sources */,
+				A9C9DD42239628F30038287D /* GameViewController.swift in Sources */,
+				78351D2923DEC5E100E6CCC4 /* RemoteConfigManager.swift in Sources */,
+				78351D2B23DEC60200E6CCC4 /* AdManager.swift in Sources */,
+				78351D2723DEC5A400E6CCC4 /* AdSettingsStorage.swift in Sources */,
+				78351D3123DEC6CC00E6CCC4 /* InitConstants.swift in Sources */,
+				9A09488623E9B9EA000DB524 /* Hearts.swift in Sources */,
+				9A09488823E9B9EA000DB524 /* GameStorage.swift in Sources */,
+				78351D3323DEC6D700E6CCC4 /* Constants.swift in Sources */,
+				A9C9DD3A239628F30038287D /* AppDelegate.swift in Sources */,
+				9A09488223E9B9EA000DB524 /* GameScene.swift in Sources */,
+				7842205023D98A2A007C0DC5 /* LoadingViewController.swift in Sources */,
+				9A09488C23E9BCD2000DB524 /* ScoreModeGameViewController.swift in Sources */,
+				9A09488423E9B9EA000DB524 /* TrialLine.swift in Sources */,
+				9A09488723E9B9EA000DB524 /* Fruits.swift in Sources */,
+				9A09488523E9B9EA000DB524 /* FruitsScoreMode.swift in Sources */,
+				9A09488A23E9B9EA000DB524 /* ScoreModeGameScene.swift in Sources */,
+				9A09488323E9B9EA000DB524 /* GameLogics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9C9DD43239628F30038287D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C9DD44239628F30038287D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C9DD48239628F40038287D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C9DD49239628F40038287D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C9DD4C239628F40038287D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C9DD4D239628F40038287D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C9DD4F239628F40038287D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DBD2C571093412F1CBE869 /* Pods-WolfFruits.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WolfFruits/Wolf Fruits.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 59U4ZHSK3Z;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/WolfFruits/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolf.fruit.game.hd;
+				PRODUCT_NAME = "Wolf Fruits HD";
+				PROVISIONING_PROFILE_SPECIFIER = WolfFruitsHDDistrProvProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9C9DD50239628F40038287D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76F2223D81E06D2AC11D4E8 /* Pods-WolfFruits.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WolfFruits/Wolf Fruits.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 59U4ZHSK3Z;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/WolfFruits/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolf.fruit.game.hd;
+				PRODUCT_NAME = "Wolf Fruits HD";
+				PROVISIONING_PROFILE_SPECIFIER = WolfFruitsHDDistrProvProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C9DD31239628F30038287D /* Build configuration list for PBXProject "WolfFruits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C9DD4C239628F40038287D /* Debug */,
+				A9C9DD4D239628F40038287D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C9DD4E239628F40038287D /* Build configuration list for PBXNativeTarget "WolfFruits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C9DD4F239628F40038287D /* Debug */,
+				A9C9DD50239628F40038287D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C9DD2E239628F30038287D /* Project object */;
+}

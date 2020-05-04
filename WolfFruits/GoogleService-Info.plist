@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>953780961157-1m6k8kr4d4iur91if729p79t9v7tb35b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.953780961157-1m6k8kr4d4iur91if729p79t9v7tb35b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8V74f9l2MHFo31pMAQfPk8WbrxsoNSSY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>953780961157</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wolf.fruit.game.hd</string>
+	<key>PROJECT_ID</key>
+	<string>wolf-fruits</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wolf-fruits.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:953780961157:ios:2562c4806af3717b0e8eec</string>
+	<key>DATABASE_URL</key>
+	<string>https://wolf-fruits.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_WolfFruits {
+  umbrella header "Pods-WolfFruits-umbrella.h"
+
+  export *
+  module * { export * }
+}

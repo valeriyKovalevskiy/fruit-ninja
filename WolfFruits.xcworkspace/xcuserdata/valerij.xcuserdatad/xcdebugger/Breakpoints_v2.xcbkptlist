@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "12EA3749-88D8-4C63-B141-8308D433630D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfFruits/Game/SurvivalMode/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - 7e541d6a5a7ff760"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.gameDelegate.getter : Swift.Optional&lt;Wolf_Fruits_HD.GameSceneDelegate&gt;"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - f1e9501f824a9794"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.gameDelegate.setter : Swift.Optional&lt;Wolf_Fruits_HD.GameSceneDelegate&gt;"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - 1536bf9dbefd6f67"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.gameDelegate.modify : Swift.Optional&lt;Wolf_Fruits_HD.GameSceneDelegate&gt;"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - c52492f78a625c0a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.gameDelegate.modify : Swift.Optional&lt;Wolf_Fruits_HD.GameSceneDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - 64df426be5ce1269"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.init(size: __C.CGSize) -&gt; Wolf_Fruits_HD.GameScene"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - 93439a060bdee516"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.init() -&gt; Wolf_Fruits_HD.GameScene"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "3D06528C-3D44-4819-8384-5B6A3FFA86A8 - 849b67e99cb6b251"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wolf_Fruits_HD.GameScene.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Wolf_Fruits_HD.GameScene&gt;"
+                  moduleName = "Wolf Fruits HD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valerij/FruitNinja/WolfFruits/Game/SurvivalMode/GameScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A88A691-F455-4F66-A115-5145A6B89F1A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfFruits/Game/SurvivalMode/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "touchesMoved(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D15D4B2E-6B61-4FB1-ACC1-AB85C4FE6C02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WolfFruits/Game/SurvivalMode/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "startGame()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
